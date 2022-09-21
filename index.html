@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <title>Shoes Shop</title>
+</head>
+
+<body>
+    <div class="app">
+        <header>
+            <div class="container">
+                <div class="nav__bars">
+
+                    <label for="nav-mobile-input" class="nav__bars-btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <input type="checkbox" name="" class="nav__input" id="nav-mobile-input">
+                    <label for="nav-mobile-input" class="nav__overlay"> </label>
+                    <nav class="nav__mobile">
+                        <label for="nav-mobile-input" class="nav__mobile-close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+                        <ul class="nav__mobile-list">
+                            <li class="nav__mobile-search">
+                                <span class="nav__mobile-list-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <input type="search" id=" search" placeholder="Nhập sản phẩm cần tìm">
+                            </li>
+                            <li>
+                                <a href="" class="nav__mobile-link">ACCOUNT</a>
+
+                            </li>
+                            <li>
+                                <a href="" class="nav__mobile-link">CART</a>
+
+                            </li>
+                            <li>
+                                <a href="" class="nav__mobile-link">NEW</a>
+
+                            </li>
+                            <li>
+                                <a href="" class="nav__mobile-link">SALE</a>
+                            </li>
+                            <li>
+                                <a href="" class="nav__mobile-link">ADIDAS
+                                    <i class="fa-solid fa-angle-right"></i>
+                                </a>
+                                <ul class="nav__mobile-link-list">
+                                    <li>ULTRABOOST</li>
+                                    <li>ZX K2 BOOT</li>
+                                    <li>ALPHABOUNCE</li>
+                                    <li>EQT+</li>
+                                    <li>X9000L4</li>
+                                    <li>STAN SMITH</li>
+                                    <li>SUPERSTART</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="" class="nav__mobile-link">NIKE
+                                    <i class="fa-solid fa-angle-right"></i></a>
+                                <ul class="nav__mobile-link-list">
+                                    <li>SB DUNK</li>
+                                    <li>JORDAN</li>
+                                    <li>AIR FORCE 1</li>
+                                    <li>PEGASUS</li>
+                                    <li>AiR MAX</li>
+                                    <li>M2k</li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </nav>
+                    <h1>Shoes Shop</h1>
+                    <div class="header__right">
+                        <label for="login__checkbox" class="auth__user">
+                            <i class="fa-solid fa-circle-user"></i>
+                            <input type="checkbox" name="" class="nav__input" id="login__checkbox">
+                            <div class="modal">
+                                <div class="modal__overlay"></div>
+                                <div class="modal__body">
+                                    <!--login fom-->
+                                    <div class="login__form">
+                                        <div class="login__container">
+                                            <div class="login__container-header">
+                                                <h3 class="login__container-header-login">Đăng nhập</h3>
+                                                <span class="login__container-header-register">Đăng ký</span>
+                                            </div>
+                                            <div class="login__container-form">
+                                                <div class="login-form__group">
+                                                    <input type="text" name="" id="" class="login__input" placeholder="Nhập email của bạn">
+                                                </div>
+                                                <div class="login-form__group">
+                                                    <input type="password" class="login__input" placeholder="Nhập mật khẩu của bạn">
+                                                </div>
+                                            </div>
+                                            <div class="login__container-aside">
+                                                <div class="login-form__help">
+                                                    <a href="" class="login-form__help-fogot" style="color: #ee4d2d;"> Quên mật khẩu</a>
+                                                    <span class="login-form__help-separate"></span>
+                                                    <a href="" class="login-form__help-link">Cần trợ giúp?</a>
+                                                </div>
+                        
+                                            </div>
+                                            <div class="login__container-control">
+                                                <button class="login-form__back">Trở lại</button>
+                                                <button class="login-form__login">Đăng nhập</button>
+                        
+                                            </div>
+                                            <div class="login__social">
+                                                <a href="" class="login__social-facebook">
+                                                    <i class="fa-brands fa-facebook"></i>
+                                                    <span class="login_social-title">Kết nối với facebook</span>
+                                                </a>
+                                                <a href="" class="login__social-google">
+                                                    <i class="fa-brands fa-google"></i>
+                                                    <span class="login_social-title">Kết nối với Google</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                        <div class="header__search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <div class="header__cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <div class="header__cart-list">
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-items">
+                                    <li class="header__cart-item">
+                                        <img src="images/sp2.jpg" alt="">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">JORDAN 1 RETRO HIGH DARK MOCHA</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">10.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-decreption">Phân loại: Giày</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="images/sp2.jpg" alt="">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">JORDAN 1 RETRO HIGH DARK MOCHA</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">10.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-decreption">Phân loại: Giày</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="images/sp2.jpg" alt="">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">JORDAN 1 RETRO HIGH DARK MOCHA</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">10.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-decreption">Phân loại: Giày</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="images/sp2.jpg" alt="">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">JORDAN 1 RETRO HIGH DARK MOCHA</h5>
+                                                <div class="header__cart-item-price-wrap">
+                                                    <span class="header__cart-item-price">10.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-decreption">Phân loại: Giày</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="inner-menu">
+                            <!--Nav pc-->
+                            <nav class="nav__pc">
+                                <ul class="nav__list">
+                                    <li>
+                                        <span>New</span>
+                                    </li>
+                                    <li>
+                                        <span>Sale</span>
+                                    </li>
+                                    <li class="adidas">
+                                        <span>Adidas</span>
+                                        <div class="menu__sub">
+                                            <ul>
+                                                <li>ULTRABOOST</li>
+                                                <li>ZX K2 BOOT</li>
+                                                <li>ALPHABOUNCE</li>
+                                                <li>EQT+</li>
+                                                <li>X9000L4</li>
+                                                <li>STAN SMITH</li>
+                                                <li>SUPERSTART</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nike">
+                                        <span>Nike</span>
+                                        <div class="menu__sub">
+                                            <ul>
+                                                <li>SB DUNK</li>
+                                                <li>JORDAN</li>
+                                                <li>AIR FORCE 1</li>
+                                                <li>PEGASUS</li>
+                                                <li>AiR MAX</li>
+                                                <li>M2k</li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__img">
+                    <img id="img" src="images/1.jpg" alt="">
+                </div>
+
+            </div>
+        </header>
+        <div class="grid wide container">
+            <h2>Sản phẩm</h2>
+            <div class="wrap__product row">
+                <div class="product col l-4 m-6 c-6">
+
+                    <img src="images/sp1.jpg" alt="">
+                    <div class="product__name">
+                        NIKE AIR MAX 1 PATTA WAVES MONARCH (WITH BRACELET)
+                    </div>
+                    <div class="product__price">
+                        đ 6.800.000
+                    </div>
+                </div>
+                <div class="product col l-4 m-6 c-6">
+
+                    <img src="images/sp2.jpg" alt="">
+                    <div class="product__name">
+                        JORDAN 1 RETRO HIGH DARK MOCHA
+                    </div>
+                    <div class="product__price">
+                        đ 10.800.000
+                    </div>
+                </div>
+                <div class="product col l-4 m-6 c-6">
+                    <img src="images/sp3.jpg" alt="">
+                    <div class="product__name">
+                        NIKE AIR MAX 1 PATTA WAVES MONARCH (WITH BRACELET)
+                    </div>
+                    <div class="product__price">
+                        đ 6.800.000
+                    </div>
+                </div>
+                <div class="product col l-4 m-6 c-6">
+
+                    <img src="images/sp4.jpg" alt="">
+                    <div class="product__name">
+                        NIKE AIR MAX 1 PATTA WAVES MONARCH (WITH BRACELET)
+                    </div>
+                    <div class="product__price">
+                        đ 6.800.000
+                    </div>
+                </div>
+                <div class="product col l-4 m-6 c-6">
+
+                    <img src="images/sp5.jpg" alt="">
+                    <div class="product__name">
+                        NIKE AIR MAX 1 PATTA WAVES MONARCH (WITH BRACELET)
+                    </div>
+                    <div class="product__price">
+                        đ 6.800.000
+                    </div>
+                </div>
+                <div class="product col l-4 m-6 c-6">
+
+                    <img src="images/sp6.jpg" alt="">
+                    <div class="product__name">
+                        NIKE AIR MAX 1 PATTA WAVES MONARCH (WITH BRACELET)
+                    </div>
+                    <div class="product__price">
+                        đ 6.800.000
+                    </div>
+                </div>
+                <div class="product col l-4 m-6 c-6">
+
+                    <img src="images/sp7.jpg" alt="">
+                    <div class="product__name">
+                        NIKE AIR MAX 1 PATTA WAVES MONARCH (WITH BRACELET)
+                    </div>
+                    <div class="product__price">
+                        đ 6.800.000
+                    </div>
+                </div>
+                <div class="product col l-4 m-6 c-6">
+
+                    <img src="images/sp8.jpg" alt="">
+                    <div class="product__name">
+                        NIKE AIR MAX 1 PATTA WAVES MONARCH (WITH BRACELET)
+                    </div>
+                    <div class="product__price">
+                        đ 6.800.000
+                    </div>
+                </div> 
+                <div class="product col l-4 m-6 c-6">
+
+                    <img src="images/sp9.jpg" alt="">
+                    <div class="product__name">
+                        NIKE AIR MAX 1 PATTA WAVES MONARCH (WITH BRACELET)
+                    </div>
+                    <div class="product__price">
+                        đ 6.800.000
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer grid wide">
+                <div class="row">
+                    <div class="footer__content col l-4 m-4 c-4">
+                        <h3 class="footer__heading">Service & Support</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">Trung tâm trợ giúp</li>
+                            <li class="footer__item">0334667783</li>
+                            <li class="footer__item">Locations</li>
+                        </ul>
+                    </div>
+                    <div class="footer__content col l-4 m-4 c-4">
+                        <h3 class="footer__heading">Info</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">Consignment Terms</li>
+                            <li class="footer__item">Connect with Us</li>
+                            <li class="footer__item">Delivery and Return</li>
+                            <li class="footer__item">FAQs</li>
+                        </ul>
+                    </div>
+                    <div class="footer__content col l-4 m-4 c-4">
+                        <h3 class="footer__heading">Follow Us</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">Facebook</li>
+                            <li class="footer__item">Instagram</li>
+                            <li class="footer__item">Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="grid wide">
+                        <p class="footer__text">Copyright © ShoesShop</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="assets/javascript/app.js"></script>
+
+</html>
